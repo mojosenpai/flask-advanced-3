@@ -1,0 +1,44 @@
+body {
+    margin: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+nav ul {
+    list-style-type: none;
+}
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('images/image.jpg');
+    background-size: cover;
+    background-position-x: 20%;
+    background-position-y: 20%;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+@media only screen and (min-width:920px) {
+    nav {
+        position: unset;
+        display: block;
+        width: auto;
+        height: auto;
+        background: none;
+    }
+    nav ul {
+        display: flex;
+        margin: 0;
+    }
+    nav ul a {
+        color: white;
+        padding: .5em 1.5em;
+    }
+    nav ul a:hover {
+        text-decoration: underline;
+    }
+}
