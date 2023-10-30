@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    margin: 50px auto;
+    width: 960px;
+    height: 60vh;
+    border: green solid 1px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    background-color: steelblue;
+    color: white;
+    border: red solid 1px;
+    width: 200px;
+    height: 50px;
+}
